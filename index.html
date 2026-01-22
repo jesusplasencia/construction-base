@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Atlas Construction | Build it right</title>
+  <meta name="description" content="Construction services: residential, commercial, renovations, roofing & exteriors." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">▦</span>
+        <span class="brand-text">
+          <span class="brand-name">Atlas Construction</span>
+          <span class="brand-tagline">Build it right. Build it once.</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn-primary" href="#contact">Get a Quote</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Licensed • Insured • On-time crews</p>
+          <h1>Construction for homes & businesses that lasts.</h1>
+          <p class="lead">
+            From renovations to ground-up builds, we deliver clean workmanship,
+            tight timelines, and transparent estimates.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Request Estimate</a>
+            <a class="btn btn-ghost" href="#services">See Services</a>
+          </div>
+
+          <ul class="hero-bullets" role="list">
+            <li>Free site visit in Lima metro</li>
+            <li>Detailed scope & materials list</li>
+            <li>Warranty on labor</li>
+          </ul>
+        </div>
+
+        <figure class="hero-media" id="projects">
+          <img
+            src="assets/hero-construction.jpg"
+            alt="Construction team working on a modern building framework"
+            loading="lazy"
+          />
+          <figcaption>Recent build: Steel + concrete commercial unit</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section-head">
+          <h2>Services</h2>
+          <p>
+            End-to-end construction support—planning, execution, and finishing,
+            with safety and quality baked in.
+          </p>
+        </header>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Residential Builds</h3>
+            <p>Custom homes, additions, and structural upgrades with clean finishes.</p>
+            <ul role="list" class="card-list">
+              <li>Foundations & framing</li>
+              <li>Electrical & plumbing coordination</li>
+              <li>Interior finishing</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Commercial Construction</h3>
+            <p>Shops, offices, and warehouses—built to code, built to scale.</p>
+            <ul role="list" class="card-list">
+              <li>Steel & concrete</li>
+              <li>Code compliance support</li>
+              <li>Timeline-focused delivery</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Renovations</h3>
+            <p>Modernize kitchens, bathrooms, and entire spaces with minimal downtime.</p>
+            <ul role="list" class="card-list">
+              <li>Demolition & rebuild</li>
+              <li>Tile, drywall, paint</li>
+              <li>Waterproofing</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Roofing & Exteriors</h3>
+            <p>Protection and curb appeal—repairs, waterproofing, and exterior work.</p>
+            <ul role="list" class="card-list">
+              <li>Leak fixes</li>
+              <li>Sealants & membranes</li>
+              <li>Facade improvements</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="cta" id="contact">
+      <div class="container cta-inner">
+        <div>
+          <h2>Tell us what you’re building.</h2>
+          <p>
+            Share location, approximate size, and your deadline. We’ll reply with a
+            clear estimate and next steps.
+          </p>
+        </div>
+
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="mailto:quotes@atlasconstruction.pe">Email for Quote</a>
+          <a class="btn btn-ghost" href="tel:+51999999999">Call +51 999 999 999</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand brand--footer">
+          <span class="brand-mark" aria-hidden="true">▦</span>
+          <span class="brand-text">
+            <span class="brand-name">Atlas Construction</span>
+            <span class="brand-tagline">Quality you can measure.</span>
+          </span>
+        </div>
+        <p class="fineprint">
+          © <span id="year"></span> Atlas Construction. All rights reserved.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#top">Back to top</a>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <p>San Isidro, Lima, Peru</p>
+        <p><a href="mailto:quotes@atlasconstruction.pe">quotes@atlasconstruction.pe</a></p>
+        <p><a href="tel:+51999999999">+51 999 999 999</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // tiny nicety: keep footer year current
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
