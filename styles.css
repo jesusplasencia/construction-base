@@ -81,7 +81,7 @@ a:hover { text-decoration: underline; }
 .brand-tagline { font-size: 0.9rem; color: var(--muted); }
 
 .nav {
-  display: flex;
+  display: none;
   gap: 14px;
   flex-wrap: wrap;
 }
@@ -331,7 +331,10 @@ h1 {
     grid-template-columns: 1fr auto auto;
     align-items: center;
   }
-  .nav { justify-content: center; }
+  .nav { 
+    display: flex;
+    justify-content: center; 
+  }
 
   .cards {
     grid-template-columns: repeat(2, 1fr);
